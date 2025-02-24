@@ -32,6 +32,31 @@ CREATED_USER_SCHEMA = {
     "required" : ["id"]
 }
 
+REGISTERED_USER_SCHEMA = {
+    "type" : "object",
+    "properties" : {
+        "id" : {"type" : "number"},
+        "token" : {"type" : "string"}
+    },
+    "required" : ["id", "token"]
+}
+
+LOGIN_USER_SCHEMA = {
+    "type" : "object",
+    "properties" : {
+        "token" : {"type" : "string"}
+    },
+    "required" : ["token"]
+}
+
+ERROR_REGISTERED_USER_SCHEMA = {
+    "type" : "object",
+    "properties" : {
+        "error" : {"type" : "string"}
+    },
+    "required" : ["error"]
+}
+
 UPDATE_USER_SCHEMA = {
     "type" : "object",
     "properties" : {
