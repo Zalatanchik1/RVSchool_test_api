@@ -1,0 +1,22 @@
+[
+  {
+    "email": "eve.holt@reqres.in",
+    "password": "cityslicka1"
+},
+  {
+    "email": "michael.lawson@reqres.in",
+    "password": "cityslicka2"
+},
+  {
+    "email": "lindsay.ferguson@reqres.in",
+    "password": "cityslicka3"
+},
+  {
+    "email": "tobias.funke@reqres.in",
+    "password": "cityslicka4"
+},
+  {
+    "email": "byron.fields@reqres.in",
+    "password": "cityslicka5"
+}
+]
