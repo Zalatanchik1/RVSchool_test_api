@@ -12,5 +12,5 @@ UNKNOWN_USER = 'api/users/23'
 def test_delete_user():
     with allure.step(f'Выполняем запрос по адресу: {BASE_URL + SINGLE_USER}'):
         response = httpx.delete(BASE_URL + SINGLE_USER)
-    with allure.step('Проверка получения статус кода ответа: 204'):
+    with allure.step('Проверка получения статус кода ответа : 204'):
         assert response.status_code == 204
